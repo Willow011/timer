@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    background-color: #F4D5FF;
+    color: white;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    width: 100%;
+    background-color: #E7AFFF;
+}
+#t{
+    background-color: #E7AFFF;
+    cursor: default;
+}
+.head button{
+    cursor: grab;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 2rem;
+    border:0;
+    background-color:#F4D5FF;
+    font-size: 1.6rem;
+    color:white;
+}
+.head button:hover{
+    background-color: rgb(225, 162, 252);
+}
+.head button:active{
+    background-color: #de92ff;
+}
+.head img{
+    height: 3rem;
+}
+
+.display{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    top: 13rem;
+    
+}
+.body h1{
+    font-size: 6rem;
+    margin-right: 3rem;
+}
+.body select{
+    color: white;
+    background-color: #F4D5FF;
+    font-size: 6rem;
+    border: 0;
+}
+.timer{
+    display: none;
+    margin-left: 30rem;
+    position: fixed;
+    top: 13rem; 
+}
+.timerD{
+    display: flex;
+    flex-direction: row;
+}
+.buttonCenter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    top: 22rem;   
+}
+.body button{
+    cursor:not-allowed;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 4rem;
+    border:0;
+    background-color:#E7AFFF;
+    font-size: 5rem;
+    color:white;
+}
+.body button:hover{
+    background-color:#de92ff;
+}
+.body button:active{
+    background-color:#d981ff;
+}
